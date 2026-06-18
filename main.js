@@ -16,8 +16,8 @@ const AVAILABLE_TOOLS = Object.fromEntries(toolList.map((t) => [t.name, t.fn]));
 
 const messages = [];
 //現在幾點?
-//台北市信義區有YouBike可以借嗎?
-//現在幾點?台北市大安區有YouBike可以借嗎?
+//信義區有YouBike可以借嗎?
+//現在幾點?大安區有YouBike可以借嗎?
 
 //await initMessage(
 //  "你是一位專門查詢現在時間與YouBike站點的專家，請用繁體中文回答。"
